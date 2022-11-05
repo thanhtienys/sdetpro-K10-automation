@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="sdetpro-K10-automation" target="1.5" />
+      <module name="sdetpro-K10-automation" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
