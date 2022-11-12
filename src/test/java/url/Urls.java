@@ -5,6 +5,7 @@ public interface Urls {
     String BASE_URL = "https://the-internet.herokuapp.com";
 
     String LOGIN_SLUG = "/login";
+    String BASIC_AUTH_SLUG = "/basic_auth";
     String DROPDOWN_SLUG = "/dropdown";
     String IFRAME_SLUG = "/iframe";
 
