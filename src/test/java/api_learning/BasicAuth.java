@@ -8,11 +8,9 @@ public class BasicAuth {
 
     private static final String USERNAME = "admin";
     private static final String PW = "admin";
-
-    private static String auth = USERNAME + ":" + PW +"@";
-    private static String http = "https://";
-    private static String webAddress = "the-internet.herokuapp.com/basic_auth";
-    private static String URL = http.concat(auth).concat(webAddress);
+    private static String https = "https://";
+    private static String link = "the-internet.herokuapp.com/basic_auth";
+    private static String URL = https + USERNAME + ":" + PW + "@" + link;
 
 
     public static void main(String[] args) {
